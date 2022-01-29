@@ -1,0 +1,330 @@
+body {
+  color: #151c22;
+  font-size: 18px;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(41, 73, 179);
+}
+
+.header {
+  display: flex;
+  width: 1170px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header__nav {
+  display: flex;
+  width: 200px;
+}
+
+.nimes-logo {
+  position: relative;
+  left: -50px;
+}
+
+.header__icons {
+  display: flex;
+  justify-content: baseline;
+}
+
+.user {
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #151c22;
+}
+
+.icons-cart {
+  margin-left: 33px;
+}
+
+.main-intro {
+  margin-top: 25px;
+  background: #f1f2f4;
+}
+
+.intro__classic {
+  display: flex;
+  height: 617px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-intro__about-denim {
+  margin-left: 250px;
+}
+
+.main-intro__you-deserve you-deserve {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #727a82;
+}
+
+.main-intro__denim {
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 128px;
+  color: #151c22;
+  text-transform: uppercase;
+}
+
+.main-intro__check-new-button {
+  margin-left: 5px;
+  background: #151c22;
+
+  padding: 24px 27px;
+  width: 219px;
+}
+
+.check-new-button-a {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.main-intro__about-girl {
+  margin-left: 100px;
+}
+
+.line-up {
+  position: relative;
+  z-index: 1;
+  top: -415px;
+  left: 182px;
+}
+
+.main-intro-denim-girl {
+  position: relative;
+  z-index: 2;
+}
+
+.line-down {
+  position: relative;
+  z-index: 1;
+  right: 182px;
+  bottom: -50px;
+}
+
+main {
+  margin-top: 83px;
+}
+
+.bestsellers {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-about-and-view-all {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: baseline;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bestsellers__row {
+  display: flex;
+  margin-top: 36px;
+  justify-content: center;
+}
+
+.bestsellers__column {
+  margin: 0 0 0 35px;
+}
+
+.bestsellers__column:first-child {
+  margin-left: 0px;
+}
+
+.item-bestsellers__name {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #151c22;
+}
+
+.item-bestsellers__price {
+  margin-top: 15px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #151c22;
+}
+
+.news {
+  margin-top: 85px;
+}
+
+.news__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.news__right-side {
+  background-image: url(./line_up.svg);
+  background-size: cover;
+  width: 430px;
+  height: 450px;
+}
+
+.news__g-star-wrapper {
+  background: #f1f2f4;
+}
+
+.news__g-star-info {
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.news__g-star-info-wrapper {
+  margin-left: 50px;
+  padding-top: 30px;
+}
+
+.g-star-updates {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #151c22;
+}
+
+.g-star-date {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+}
+
+.g-star-pushing {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #727a82;
+}
+
+.news__read-more-button {
+  background: #151c22;
+
+  padding: 24px 27px;
+  width: 150px;
+}
+
+.news__read-more-button-link {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 22px;
+}
+
+.shop-by-category {
+  margin-top: 85px;
+}
+
+.shop-by-category__row {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.shop-by-category__column {
+  margin: 0 0 0 35px;
+}
+
+.shop-by-category__column:first-child {
+  margin-left: 0px;
+}
+
+.item-shop-by-category__name {
+  margin-top: 20px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #151c22;
+}
+
+footer {
+  background: #151c22;
+  margin-top: 120px;
+}
+
+.nimes-white-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+.navigation-end {
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.navigation-end__ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.li-nav-end {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.icons-end-of-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+  padding-bottom: 60px;
+}
+
+.facebook {
+  margin-right: 33px;
+}
+
+.instagram {
+  margin-right: 33px;
+}
+
+.pinterest {
+  margin-right: 33px;
+}

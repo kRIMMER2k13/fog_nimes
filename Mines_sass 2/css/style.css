@@ -1,0 +1,271 @@
+body {
+  color: #151c22;
+  font-size: 18px;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(41, 73, 179);
+}
+
+.header {
+  display: flex;
+  width: 1170px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header__nav {
+  display: flex;
+  width: 200px;
+}
+
+.nimes-logo {
+  position: relative;
+  left: -50px;
+}
+
+.header__icons {
+  display: flex;
+  justify-content: baseline;
+}
+
+.user {
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #151c22;
+}
+
+.icons-cart {
+  margin-left: 33px;
+}
+
+.denim-collection {
+  background: #f1f2f4;
+}
+
+.denim-collection-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.denim-collection-left-side {
+  margin-top: 65px;
+}
+
+.link-category {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #727a82;
+  text-decoration: none;
+}
+
+.link-category-active {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #151c22;
+  text-decoration: none;
+}
+
+.fall-2019 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #151c22;
+}
+
+.lines-down {
+  position: relative;
+  z-index: 0;
+  left: 185px;
+}
+
+.denim-collection-main-photo {
+  position: relative;
+  z-index: 1;
+}
+
+.lines-up {
+  position: relative;
+  z-index: 0;
+  right: 185px;
+  top: -82px;
+}
+
+.filter {
+  margin-top: 50px;
+  text-align: right;
+  margin-right: 480px;
+  margin-bottom: 50px;
+}
+
+.filter-button {
+  width: 150px;
+  height: 25px;
+  border-color: #151c22;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+main {
+  justify-content: center;
+  display: flex;
+}
+
+.item-name {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #151c22;
+}
+
+.item-price {
+  margin-top: 15px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #151c22;
+}
+
+.item-columns-first-floor {
+  display: flex;
+}
+
+.item-columns-second-floor {
+  display: flex;
+  margin-top: 50px;
+}
+
+.item-column {
+  margin: 0 0 0 35px;
+}
+
+.item-column:first-child {
+  margin-left: 0px;
+}
+
+.amount-of-showing {
+  margin-top: 50px;
+}
+
+.showing-of {
+  text-align: center;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #151c22;
+}
+
+.black-line {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 160px;
+  text-align: center;
+  z-index: 2;
+}
+
+.white-line {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.load-more {
+  background: #151c22;
+  margin-top: 80px;
+  width: 210px;
+  height: 75px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.load-more-button {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer {
+  background: #151c22;
+  margin-top: 120px;
+}
+
+.nimes-white-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+.navigation-end {
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.navigation-end__ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.li-nav-end {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.icons-end-of-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+  padding-bottom: 60px;
+}
+
+.facebook {
+  margin-right: 33px;
+}
+
+.instagram {
+  margin-right: 33px;
+}
+
+.pinterest {
+  margin-right: 33px;
+}
